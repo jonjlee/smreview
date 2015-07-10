@@ -112,10 +112,12 @@ endif; ?>
 
 						echo '</a>';
 
-					// else:
+					else:
 
-					// 	echo '<a href="'.esc_url( home_url( '/' ) ).'" class="navbar-brand">';
+						echo '<a href="'.esc_url( home_url( '/' ) ).'" class="navbar-brand">';
 						
+							echo 'SMR';
+
 					// 		if( file_exists(get_stylesheet_directory()."/images/logo.png")):
 							
 					// 			echo '<img src="'.get_stylesheet_directory_uri().'/images/logo.png" alt="'.get_bloginfo('title').'">';
@@ -126,7 +128,7 @@ endif; ?>
 								
 					// 		endif;
 
-					// 	echo '</a>';
+						echo '</a>';
 
 					endif;
 
