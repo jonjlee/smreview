@@ -92,7 +92,7 @@ function zerif_setup()
 
         'default-color' => 'ffffff',
 
-        'default-image' => get_template_directory_uri() . "/images/bg.jpg",
+        'default-image' => "http://www.soonermedreview.org/wp-content/themes/zerif-lite/images/bg.jpg",
 
     )));
 
