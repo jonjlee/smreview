@@ -2647,7 +2647,7 @@ width: -webkit-calc(100% / 4);
 	color: #FFF;
 }
 #client-feedbacks .feedback-box {
-	width: 30%;
+	width: 100%;
 	float:left;
 	background: #FFFFFF;
 	padding: 25px;
@@ -2798,6 +2798,7 @@ width: -webkit-calc(100% / 4);
 	padding-top: 68px;
 	padding-bottom: 68px;
 	background: #440202;
+	color: #939393;
 }
 .social {
 	margin: 0 0 1.5em 0 !important;
