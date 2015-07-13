@@ -88,13 +88,13 @@ function zerif_setup()
 
     // Setup the WordPress core custom background feature.
 
-    // add_theme_support('custom-background', apply_filters('zerif_custom_background_args', array(
+    add_theme_support('custom-background', apply_filters('zerif_custom_background_args', array(
 
-    //     'default-color' => 'ffffff',
+        'default-color' => 'ffffff',
 
-    //     'default-image' => get_template_directory_uri() . "/images/bg.jpg",
+        'default-image' => get_template_directory_uri() . "/images/bg.jpg",
 
-    // )));
+    )));
 
 
     // Enable support for HTML5 markup.
