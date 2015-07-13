@@ -48,7 +48,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	box-sizing:         border-box;
 }
 body {
-	background: #fff;
+	background: #000;
 }
 article,
 aside,
@@ -4457,7 +4457,7 @@ body.home.page {
 }
 
 body.custom-background {
-	background-position: center 100px !important;
+	background-position: center 76px !important;
 	background-attachment: fixed !important;
 	background-size: cover;
 }
