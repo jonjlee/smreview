@@ -298,10 +298,10 @@ h6 {
 	border: none;
 }
 .red-btn {
-	background: #e96656;
+	background: #752323;
 }
 .green-btn {
-	background: #20AA73;
+	background: #C4BA99;
 }
 .blue-btn {
 	background: #3ab0e2;
@@ -320,11 +320,11 @@ h6 {
 }
 .red-btn:hover {
 	color: #FFF;
-	background: #cb4332;
+	background: #752323;
 }
 .green-btn:hover {
 	color: #FFF;
-	background: #069059;
+	background: #C4BA99;
 }
 .yellow-btn:hover {
 	color: #FFF;
@@ -1113,8 +1113,8 @@ a:active {
 	right: 0;
 }
 .comment-form #submit, .comment-reply-link {
-	background:#e96656;
-	border-color:#e96656;
+	background:#752323;
+	border-color:#752323;
 	color:#fff !important;
 }
 .comment-form #submit:hover {
@@ -1498,7 +1498,7 @@ object {
 	display: block;
 }
 
-.`nd {
+.navbar-brand {
 	height: 76px;
 	position: relative;
 	line-height: 60px;
@@ -2774,7 +2774,7 @@ width: -webkit-calc(100% / 4);
  **   Footer           -----
 -----------------------------------------*/
 #footer {
-	background: #272727;
+	background: #5E0E0E;
 	line-height: 20px;
 }
 .company-details {
@@ -2797,7 +2797,7 @@ width: -webkit-calc(100% / 4);
 .copyright {
 	padding-top: 68px;
 	padding-bottom: 68px;
-	background: #171717;
+	background: #440202;
 }
 .social {
 	margin: 0 0 1.5em 0 !important;
