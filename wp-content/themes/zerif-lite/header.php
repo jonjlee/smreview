@@ -1,19 +1,13 @@
 <?php
 
 /**
-
  * The Header for our theme.
-
  *
-
  * Displays all of the <head> section and everything up till <div id="content">
-
  *
-
  * @package zerif
-
  */
-
+header("Access-Control-Allow-Origin: *");
 ?><!DOCTYPE html>
 
 <html <?php language_attributes(); ?>>
