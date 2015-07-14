@@ -4465,6 +4465,13 @@ div.header-content-wrap {
 	background-attachment: fixed;  
 }
 
+#contact {
+	background: 50% 50% / cover;  
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('http://alvordschools.org/cms/lib8/CA01900929/Centricity/Shared/contact%20us%20icon.jpg');
+	background-repeat: no-repeat;  
+	background-attachment: fixed;  
+}
+
 /*
 body.custom-background {
 	background-position: center 76px !important;
