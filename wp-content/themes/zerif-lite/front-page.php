@@ -329,10 +329,6 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 
 
-
-
-
-
 	/* ABOUT US */
 
 	$zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
@@ -340,16 +336,6 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 	if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
 
 		include get_template_directory() . "/sections/about_us.php";
-	endif;
-
-
-	/* OUR TEAM */
-
-	$zerif_ourteam_show = get_theme_mod('zerif_ourteam_show');
-
-	if( isset($zerif_ourteam_show) && $zerif_ourteam_show != 1 ):
-
-		include get_template_directory() . "/sections/our_team.php";
 	endif;
 
 
@@ -363,6 +349,15 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 	endif;
 
 
+
+	/* OUR TEAM */
+
+	$zerif_ourteam_show = get_theme_mod('zerif_ourteam_show');
+
+	if( isset($zerif_ourteam_show) && $zerif_ourteam_show != 1 ):
+
+		include get_template_directory() . "/sections/our_team.php";
+	endif;
 
 
 	/* RIBBON WITH RIGHT SIDE BUTTON */
