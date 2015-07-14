@@ -23,6 +23,7 @@ jQuery(window).load(function() {
     var hash = this.href.split('#',2)[1];
     if (hash && jQuery('#'+hash).length > 0) {
       jQuery("html, body").animate({scrollTop: jQuery('#'+hash).offset().top});
+      return false;
     }
   });
 })
