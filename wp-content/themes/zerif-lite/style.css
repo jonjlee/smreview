@@ -4457,15 +4457,21 @@ body.home.page {
 	background-image:none !important;
 }
 
-body.custom-background {
-/*
-	background-position: center 76px !important;
-	background-attachment: fixed !important;
-*/
-	background: url('http://www.soonermedreview.org/wp-content/themes/zerif-lite/images/bg.jpg') no-repeat center 76px fixed;
-	background-size: cover;
+div.header-content-wrap {
+	background: 50% 50% / cover;  
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://www.soonermedreview.org/wp-content/themes/zerif-lite/images/bg.jpg');
+	background-position-y: 10px;
+	background-repeat: no-repeat;  
+	background-attachment: fixed;  
 }
 
+/*
+body.custom-background {
+	background-position: center 76px !important;
+	background-attachment: fixed !important;
+	background-size: cover;
+}
+*/
 .zerif_team:nth-child(4n+1), .our-team .col-lg-3:nth-child(4n+1) {
 	clear:both;
 }
