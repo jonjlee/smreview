@@ -4462,7 +4462,7 @@ body.custom-background {
 	background-position: center 76px !important;
 	background-attachment: fixed !important;
 */
-	background: url('http://www.soonermedreview.org/wp-content/themes/zerif-lite/images/bg.jpg') no-repeat center top fixed;
+	background: url('http://www.soonermedreview.org/wp-content/themes/zerif-lite/images/bg.jpg') no-repeat center 76px fixed;
 	background-size: cover;
 }
 
