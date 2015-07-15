@@ -83,3 +83,16 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+/** Disable all JetPack modules except Photon */
+function change_default_modules() {
+    return array( 'photon' );  // activate these modules by default
+}
+function activate_specific_jetpack_modules( $modules ) {
+        $active_modules = array( 'photon' );  // enable these modules
+        $modules = array_intersect_key( $modules, array_flip( $active_modules ) );  // deactivate other modules
+        return $modules;
+}
+add_filter( 'jetpack_get_default_modules', 'change_default_modules' );
+add_filter( 'jetpack_get_available_modules', 'activate_specific_jetpack_modules' );
